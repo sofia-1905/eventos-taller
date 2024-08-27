@@ -1,4 +1,5 @@
-function saludar() {
+function saludar(event) {
+    event.stopPropagation(); // Detenemos la propagación del evento al div
     alert("Hola!");
 }
 
